@@ -1,2 +1,3 @@
-# Std_Dep
-Students_Depression_Data
+# Students_Depression_Insights
+
+Analyzing_Students_Depression_Data_Using_Excel

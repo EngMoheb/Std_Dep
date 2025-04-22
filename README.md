@@ -54,7 +54,6 @@ Raw Dataset: Kaggle export with 18 fields covering demographics, stressors, beha
 
 Workbook Structure: Includes sheets for Raw Data, Cleaned Data, Demographics Analysis, Single‑Feature Analysis, and Hotspots Analysis.
 
-Security: The Excel file is protected to prevent structural edits, while remaining viewable.
 
 Data Cleaning & Transformation 🔄
 
@@ -114,11 +113,9 @@ Tools Used 🛠️
 
 Excel 365 (Power Query & PivotTables)
 
-FFmpeg (GIF conversion)
-
 Git & GitHub (version control)
 
-Markdown (documentation)
+
 
 Recommendations 🎯
 

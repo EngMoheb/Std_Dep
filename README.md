@@ -159,10 +159,6 @@ Depression undermines student well-being and academic success. By uncovering the
 
 [LinkedIn](https://www.linkedin.com/in/ahmed-moheb-09b37135a/)  
 
-[Medium](https://medium.com/@ahmedmoheb151)
-
-[Kaggle](https://www.kaggle.com/ahmedmoheb214)
-
 ---
 
 *Thank you for exploring Student Depression Analysis—let’s collaborate to foster healthier campus communities!*  

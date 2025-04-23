@@ -15,10 +15,10 @@
    - [Part 2: Single-Feature Analysis](#part-2-single-feature-analysis)  
    - [Part 3: Hotspots Analysis](#part-3-hotspots-analysis)  
 6. [Insights from Analysis 💡](#insights-from-analysis-)  
-7. [Recommendations & Implementation 🎯](#recommendations--implementation-)  
-8. [Tools Used 🛠️](#tools-used-)  
-9. [Next Steps ⏭️](#next-steps-)  
-10. [Demo GIFs 📽️](#demo-gifs-)  
+7. [Recommendations & Implementation 🎯](#recommendations--implementation-)
+8. [Tools Used 🛠️](#tools-used-️)
+9. [Next Steps ⏭️](#next-steps-️)
+10. [Demo GIFs 📽️](#demo-gifs-️)
 11. [Contact 📬](#contact-)
 
 ---

@@ -1,6 +1,6 @@
 # Student Depression Analysis with Excel 📊💡
 
-**A data-driven project deep dive into the academic, lifestyle, and socity factors driving depression among students**, leveraging Excel’s features to uncover high-impact stressors and inform targeted interventions.
+**A data-driven project deep dive into the academic, lifestyle, and socity factors driving depression among students**, using Excel's features to uncover high-impact stressors and inform targeted interventions.
 
 ---
 
@@ -16,10 +16,10 @@
    - [Part 3: Hotspots Analysis](#part-3-hotspots-analysis)  
 6. [Insights from Analysis 💡](#insights-from-analysis-)  
 7. [Recommendations & Implementation 🎯](#recommendations--implementation-)
-8. [Tools Used 🛠️](#tools-i-used-️) 
+8. [Tools I Used 🛠️](#tools-i-used-️)
 9. [Next Steps ⏭️](#next-steps-️)
-10. [Demo GIFs 📽️](#demo-gifs-️)
-11. [Contact 📬](#contact-)
+10. [Contact 📬](#contact-)
+
 
 ---
 
@@ -66,10 +66,10 @@ Depression undermines student well-being and academic success. By uncovering the
 ## Exploratory Data Analysis 🔍
 
 ### Part 1: Demographic Analysis  
-- **Top Cities**: Kalyan (1,570), Srinagar (1,370), Hyderabad (1,338).  
+- **Indian Cities with Highest Depression Rates**: Kalyan (1,570), Srinagar (1,370), Hyderabad (1,338).  
 - **Student Status**: 99% of depressed respondents are students.  
 - **Gender × Age Bands**:  
-  - *Females* (44% of cases): Young 23%, Mid 17%, Senior 4%.  
+  - *Females* (44%): Young 23%, Mid 17%, Senior 4%.  
   - *Males* (56%): Young 28%, Mid 21%, Senior 7%.  
 
 #### Detailed Observations
@@ -100,7 +100,7 @@ Depression undermines student well-being and academic success. By uncovering the
 - **Suicidal Thoughts + High Financial Stress**: 89.1% depressed  
 - **High Pressure + Low Satisfaction**: 89.0% depressed  
 - **Suicidal Thoughts + Low Satisfaction**: 86.8% depressed  
-- **High Stress + Low Satisfaction**: 83.0% depressed  
+- **High financial Stress + Low study Satisfaction**: 83.0% depressed  
 - **Suicidal Thoughts + Family Illness**: 81.0% depressed  
 - **Unhealthy Diet + Short Sleep**: 73.0% depressed  
 - **High Study Hours + Short Sleep**: 69.0% depressed  
@@ -109,7 +109,6 @@ Depression undermines student well-being and academic success. By uncovering the
 
 - **Peak Compound Risk**: *High Academic Pressure + Suicidal Thoughts* → **91.9%**.  
 - **Top Single Predictors**: Academic Pressure (81.6%), Suicidal Ideation (79.1%), Financial Stress (75.6%).  
-- **Protective Extremes**: Low Pressure (19.5%), Healthy Diet (45.4%).
 
 ---
 
@@ -124,7 +123,7 @@ Depression undermines student well-being and academic success. By uncovering the
    - 🤝 *Gatekeeper Training*: Equip faculty and peers to recognize warning signs and refer for support.
 
 3. **Alleviate Financial Stress**  
-   - 💳 *Financial Literacy Bootcamps*: Budgeting and scholarship navigation, reducing stress by ~25%.  
+   - 💳 *Financial Literacy Bootcamps*: Budgeting and scholarship navigation,  These bootcamps are effective enough to lower stress levels by approximately 25%.  
    - 🆘 *Emergency Aid Grants*: Rapid-response funding (within 48 hours) for urgent needs.
 
 4. **Improve Well-Being**  
@@ -140,11 +139,10 @@ Depression undermines student well-being and academic success. By uncovering the
 - **Excel 365**: Power Query for ETL, PivotTables for analysis and pivot charts for Visualization.   
 - **Git & GitHub**: Version control and project hosting.  
 - **ChatGPT**: Drafted and refined narrative content and advanced analysis.  
-- **DeepSeek AI**: Summarized academic literature and advanced analysis.  
+- **DeepSeek AI**: Defining questions and selecting key depression factors.
 - **Perplexity**: Rapid research and fact-checking.  
 - **Grammarly**: Ensured clear, polished writing.
 - **Sider.ai**: Chating with all the AI Models.
-- **FFmpeg**: Generated optimized GIFs from screen recordings. 
 
 ---
 
@@ -154,19 +152,6 @@ Depression undermines student well-being and academic success. By uncovering the
 - **Advanced BI Tools**: Create interactive dashboards in Power BI or Tableau to visualize real-time depression risk across cohorts..  
 
 ---
-
-## Demo GIFs 📽️
-
-| Phase                              | Demo                                                                           |
-|------------------------------------|--------------------------------------------------------------------------------|
-| **Part 1: Raw Data**               | ![Raw Data](data/RawData.gif)                                                  |
-| **Part 2: Cleaned Data**           | ![Cleaned Data](data/CleanedData.gif)                                          |
-| **Part 3: Demographics Analysis**  | ![Demographics](data/Demographics.gif)                                         |
-| **Part 4: Single-Feature Analysis**| ![Single Feature](data/SingleFeature.gif)                                      |
-| **Part 5: Hotspots Analysis**      | ![Hotspots](data/Hotspots.gif)                                                 |
-
----
-
 
 ## Contact 📬
 

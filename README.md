@@ -1,6 +1,6 @@
 # Student Depression Analysis with Excel 📊💡
 
-**A data-driven project deep dive into the academic, lifestyle, and socioeconomic factors driving depression among students**, leveraging Excel’s features to uncover high-impact stressors and inform targeted interventions.
+**A data-driven project deep dive into the academic, lifestyle, and socity factors driving depression among students**, leveraging Excel’s features to uncover high-impact stressors and inform targeted interventions.
 
 ---
 
@@ -38,7 +38,7 @@ Depression undermines student well-being and academic success. By uncovering the
 
 **Objectives:**  
 - 🔍 **Identify** leading single and compound predictors of student depression.  
-- 💡 **Recommend** targeted, evidence-based interventions for educators, support services, and policymakers.
+- 💡 **Recommend** targeted, evidence-based interventions for educators & support services.
 
 ---
 

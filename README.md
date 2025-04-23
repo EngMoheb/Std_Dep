@@ -19,9 +19,7 @@
 8. [Tools Used 🛠️](#tools-used-)  
 9. [Next Steps ⏭️](#next-steps-)  
 10. [Demo GIFs 📽️](#demo-gifs-)  
-11. [Contributing 🤝](#contributing-)  
-12. [License 📄](#license-)  
-13. [Contact 📬](#contact-)
+11. [Contact 📬](#contact-)
 
 ---
 
@@ -45,7 +43,7 @@ Depression undermines student well-being and academic success. By uncovering the
 ## Data Source & Context 🗂️
 
 - **Dataset:** [Student Depression Dataset on Kaggle](https://www.kaggle.com/datasets/adilshamim8/student-depression-dataset) (27,901 rows × 18 columns).  
-- **STD_DEP_fnl.xlsx Workbook Structure:**  
+- **[STD_DEP_fnl.xlsx]( https://github.com/EngMoheb/Std_Dep/blob/main/STD_DEP_fnl.xlsx) Workbook Structure:**  
   - **Raw Data**  
   - **Cleaned Data**  
   - **Part 1: Demographics Analysis**  
@@ -92,9 +90,9 @@ Depression undermines student well-being and academic success. By uncovering the
 - **Short Sleep Duration**: 61.3% depressed  
 - **Family Illness History = TRUE**: 61.3% depressed  
 
-#### In-Depth Insights
-**Academic and emotional stressors (pressure, ideation) are top predictors, overshadowing lifestyle variables.**
-**Diet and sleep emerge as modifiable behaviors—opportunities for wellness programs.**
+### In-Depth Insights
+- _**_Academic and emotional stressors (pressure, ideation) are top predictors, overshadowing lifestyle variables._**
+- **_Diet and sleep emerge as modifiable behaviors—opportunities for wellness programs._**
 
 ### Part 3: Hotspots Analysis  
 - **High Academic Pressure + Suicidal Thoughts**: 91.9% depressed  
@@ -169,34 +167,19 @@ Depression undermines student well-being and academic success. By uncovering the
 
 ---
 
-## Contributing 🤝
-
-We welcome improvements!  
-1. Fork the repo and create a branch (`git checkout -b feature/YourFeature`).  
-2. Commit your changes (`git commit -m 'Describe your change'`).  
-3. Push to the branch (`git push origin feature/YourFeature`).  
-4. Open a Pull Request for review.
-
----
-
-## License 📄
-
-This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
-
----
 
 ## Contact 📬
 
-**Lead Analyst**: you@example.com  
-LinkedIn: [yourprofile](https://www.linkedin.com/in/yourprofile)  
-GitHub: [@yourusername](https://github.com/yourusername)
+**Lead Analyst**: Eng_Ahmed_Moheb 
+
+[LinkedIn](https://www.linkedin.com/in/ahmed-moheb-09b37135a/)  
+
+[Medium](https://medium.com/@ahmedmoheb151)
+
+[Kaggle](https://www.kaggle.com/ahmedmoheb214)
 
 ---
 
 *Thank you for exploring Student Depression Analysis—let’s collaborate to foster healthier campus communities!*  
 
-## Insights from Analysis 💡
 
-- **Peak Compound Risk**: *High Academic Pressure + Suicidal Thoughts* → **91.9%**.  
-- **Top Single Predictors**: Academic Pressure (81.6%), Suicidal Ideation (79.1%), Financial Stress (75.6%).  
-- **Protective Extremes**: Low Pressure (19

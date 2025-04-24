@@ -41,6 +41,7 @@ Depression undermines student well-being and academic success. By uncovering the
 ---
 
 ## Data Source & Context 🗂️
+![Raw Data](assets/raw-data.png)
 
 - **Dataset:** [Student Depression Dataset on Kaggle](https://www.kaggle.com/datasets/adilshamim8/student-depression-dataset) (27,901 rows × 18 columns).  
 - **[STD_DEP_fnl.xlsx]( https://github.com/EngMoheb/Std_Dep/blob/main/STD_DEP_fnl.xlsx) Workbook Structure:**  
@@ -54,6 +55,7 @@ Depression undermines student well-being and academic success. By uncovering the
 ---
 
 ## Data Cleaning & Transformation 🔄
+![Cleaned Data](assets/cleaned-data.png)
 
 1. **Deduplication**: Removed duplicate values.  
 2. **Parsing & Bucketing**: Converted “Sleep Duration” text to numeric hours and grouped into Short/Normal/Long.  
@@ -66,6 +68,7 @@ Depression undermines student well-being and academic success. By uncovering the
 ## Exploratory Data Analysis 🔍
 
 ### Part 1: Demographic Analysis  
+![Demographics](assets/phase1-demographics.png)
 - **Indian Cities with Highest Depression Rates**: Kalyan (1,570), Srinagar (1,370), Hyderabad (1,338).  
 - **Student Status**: 99% of depressed respondents are students.  
 - **Gender × Age Bands**:  
@@ -80,6 +83,7 @@ Depression undermines student well-being and academic success. By uncovering the
 - **Age Pattern**: Younger students disproportionately affected, pointing to transitional stress in early academic years.
 
 ### Part 2: Single-Feature Analysis  
+![Single Feature](assets/phase2-single-feature.png)
 - **High Academic Pressure**: 81.6% depressed  
 - **Suicidal Thoughts = TRUE**: 79.1% depressed  
 - **High Financial Stress**: 75.6% depressed  
@@ -95,6 +99,7 @@ Depression undermines student well-being and academic success. By uncovering the
 - **_Diet and sleep emerge as modifiable behaviors—opportunities for wellness programs._**
 
 ### Part 3: Hotspots Analysis  
+![Hotspots](assets/phase3-hotspots.png)
 - **High Academic Pressure + Suicidal Thoughts**: 91.9% depressed  
 - **High Academic Pressure + High Financial Stress**: 90.7% depressed  
 - **Suicidal Thoughts + High Financial Stress**: 89.1% depressed  

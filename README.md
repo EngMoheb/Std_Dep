@@ -1,4 +1,6 @@
 # Student Depression Analysis with Excel 📊💡
+![Student Depression Cover](assets/std_dep.png)
+
 
 **A data-driven project deep dive into the academic, lifestyle, and socity factors driving depression among students**, using Excel's features to uncover high-impact stressors and inform targeted interventions.
 

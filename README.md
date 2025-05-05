@@ -1,4 +1,4 @@
-# Student Depression Analysis with Excel 📊💡
+# 💡Student Depression Analysis with Excel 📊 
 ![Student Depression Cover](assets/std_dep.png)
 
 
@@ -27,7 +27,7 @@
 
 ## About the Project
 
-**This project analyzes a Kaggle survey of (27,901 rows × 18 columns)to identify the top predictors of depression and recommend data-backed solutions. We have used Excel’s Power Query, PivotTables and pivot charts to transform, analyze & visualize raw data,  and after that we have performed three phases of analysis, and provide useful insights & acitonable solutions.**
+**This project analyzes a Kaggle survey of (27,901 rows × 18 columns) located in india to identify the top predictors of depression and provide data-driven solutions. We have used Excel’s Power Query, PivotTables and pivot charts to transform, analyze & visualize raw data,  and after that we have performed three phases of analysis, and provide useful insights & acitonable solutions.**
 
 ---
 
@@ -44,7 +44,7 @@ Student mental health is a critical global issue and the depression undermines s
 ---
 
 ## Data Source & Context 🗂️
-![Raw Data](assets/data.png)
+![Raw Data](assets/raw_data.png)
 
 Check out my resources below 👇 :
 
@@ -63,11 +63,11 @@ Check out my resources below 👇 :
 ---
 
 ## Data Cleaning & Transformation 🔄
-![Cleaned Data](assets/cleaned-data.png)
+![Cleaned Data](assets/Cleaned_Data.png)
 
-1. **Deduplication**: Removed duplicate values.  
-2. **Parsing & Bucketing**: Converted “Sleep Duration” text to numeric hours and grouped into Short/Normal/Long.  
-3. **Ordinal Buckets**: Created Low/Medium/High groups for pressure, stress, and satisfaction scales.  
+1. **Deduplication**: Removed duplicate values.    
+2. **Ordinal Buckets**: Created Low/Medium/High groups for pressure, stress, and satisfaction scales.
+3. **Parsing & Bucketing**: Converted “Sleep Duration” text to numeric hours and grouped into Short/Normal/Long.
 4. **Boolean Flags**: Mapped depression and suicidal-thought indicators to TRUE/FALSE.  
 5. **Enrichment**: Added `Country` and `IsStudent` flags for segmentation.
 
@@ -76,7 +76,7 @@ Check out my resources below 👇 :
 ## Exploratory Data Analysis 🔍
 
 ### Part 1: Demographic Analysis  
-![Demographics](assets/phase1-demographics.png)
+![Demographics](assets/Part_1.png)
 - **Indian Cities with Highest Depression Rates**: Kalyan (1,570), Srinagar (1,370), Hyderabad (1,338).  
 - **Student Status**: 99% of depressed respondents are students.  
 - **Gender × Age Bands**:  
@@ -91,7 +91,7 @@ Check out my resources below 👇 :
 - **Age Pattern**: Younger students disproportionately affected, pointing to transitional stress in early academic years.
 
 ### Part 2: Single-Feature Analysis  
-![Single Feature](assets/phase2-single-feature.png)
+![Single Feature](assets/Part_2.png)
 - **High Academic Pressure**: 81.6% depressed  
 - **Suicidal Thoughts = TRUE**: 79.1% depressed  
 - **High Financial Stress**: 75.6% depressed  
@@ -107,7 +107,7 @@ Check out my resources below 👇 :
 - **_Diet and sleep emerge as modifiable behaviors—opportunities for wellness programs._**
 
 ### Part 3: Hotspots Analysis  
-![Hotspots](assets/phase3-hotspots.png)
+![Hotspots](assets/Part_3.png)
 - **High Academic Pressure + Suicidal Thoughts**: 91.9% depressed  
 - **High Academic Pressure + High Financial Stress**: 90.7% depressed  
 - **Suicidal Thoughts + High Financial Stress**: 89.1% depressed  
@@ -128,12 +128,19 @@ Check out my resources below 👇 :
 ## Recommendations & Implementation 🎯
 
 1. **Reduce Academic Pressure**  
-   - 📚 *Mindfulness & CBT Workshops*: Semester-long programs proven to lower stress by 30–40%.  
-   - 👩‍🏫 *Growth-Mindset Training*: Integrate resilience and study-skill modules into curricula.
+   - 📚 *Mindfulness & CBT Workshops*:
+These are workshops that combine two techniques, mindfulness and Cognitive Behavioral Therapy (CBT), and they run for an entire school semester. These programs have been shown to significantly reduce stress levels in participants, with studies showing a decrease of 30% to 40%.
 
-2. **Address Suicidal Ideation**  
-   - 🛡️ *Routine Screening (PHQ-9)*: Flag at-risk students during health-center visits.  
-   - 🤝 *Gatekeeper Training*: Equip faculty and peers to recognize warning signs and refer for support.
+   - 👩‍🏫 *Growth-Mindset Training*:
+Integrate incorporate lessons on growth mindset, resilience, and study skills directly into their regular courses.
+
+2. **Address Suicidal Ideation**
+   
+*   🛡️**Routine Screening (PHQ-9):** During routine health checkups at the health center, students will be screened using a questionnaire called the PHQ-9. This questionnaire helps identify students who may be at risk for depression and suicide.
+*   **🤝Gatekeeper Training:** Faculty and other students will be trained to recognize the signs that someone is struggling with mental health issues or suicidal thoughts. 
+
+      **_In short: Identify struggling students early and empower others to help._**  
+
 
 3. **Alleviate Financial Stress**  
    - 💳 *Financial Literacy Bootcamps*: Budgeting and scholarship navigation,  These bootcamps are effective enough to lower stress levels by approximately 25%.  
@@ -149,20 +156,19 @@ Check out my resources below 👇 :
 
 ## Tools I Used 🛠️
 
-- **Excel 365**: Power Query for ETL, PivotTables for analysis and pivot charts for Visualization.   
+- **Microsoft Excel**: Power Query for ETL, PivotTables for analysis and pivot charts for Visualization.   
 - **Git & GitHub**: Version control and project hosting.  
 - **ChatGPT**: Drafted and refined narrative content and advanced analysis.  
 - **DeepSeek AI**: Defining questions and selecting key depression factors.
 - **Perplexity**: Rapid research and fact-checking.  
 - **Grammarly**: Ensured clear, polished writing.
 - **Sider.ai**: Chating with all the AI Models.
-
 ---
 
 ## Next Steps ⏭️
 
-- **Scale to SQL**: Migrate cleaned data to a relational database for large-scale & to overcome Excel’s row limits and enable advanced querying. .  
-- **Advanced BI Tools**: Create interactive dashboards in Power BI or Tableau to visualize real-time depression risk across cohorts..  
+- **Scale to SQL**: Migrate cleaned data to a relational database for large-scale & to overcome Excel’s row limits and enable advanced querying. 
+- **Advanced BI Tools**: Create interactive dashboards in Power BI or Tableau to visualize real-time depression risk across cohorts.
 
 ---
 
@@ -170,13 +176,9 @@ Check out my resources below 👇 :
 
 **Lead Analyst**: Eng_Ahmed_Moheb 
 
-Check out my resources below 👇 : 
-
-[Project_Videos](https://bit.ly/4jN6e2r)
-
-📁  Project_Videos : https://bit.ly/4jN6e2r
-
 🔗[LinkedIn](https://www.linkedin.com/in/ahmed-moheb-09b37135a/)  
+🔗[Medium]( https://medium.com/@ahmedmoheb151)  
+
 
 ---
 

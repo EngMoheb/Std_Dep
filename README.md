@@ -2,7 +2,7 @@
 ![Student Depression Cover](assets/std_dep.png)
 
 
-**A data-driven project deep dive into the academic, lifestyle, and socity factors driving depression among students**, using Excel's features to uncover high-impact stressors and inform targeted interventions.
+**A data-driven project deep dive into the academic, lifestyle, and socity factors which driving depression among students**, using Excel to uncover high-impact stressors factors & provide recommendations to solve these problems.
 
 ---
 
@@ -27,26 +27,33 @@
 
 ## About the Project
 
-Student mental health is a **critical global issue**—this project analyzes a Kaggle survey of **27,901** respondents to **identify** the top predictors of depression and **recommend** data-backed solutions. We have used Excel’s Power Query, PivotTables and pivot charts to process raw data, perform three phases of analysis, and surface actionable insights.
+**This project analyzes a Kaggle survey of (27,901 rows × 18 columns)to identify the top predictors of depression and recommend data-backed solutions. We have used Excel’s Power Query, PivotTables and pivot charts to transform, analyze & visualize raw data,  and after that we have performed three phases of analysis, and provide useful insights & acitonable solutions.**
 
 ---
 
 ## Introduction & Objectives 🎯
 
 **Why this matters:**  
-Depression undermines student well-being and academic success. By uncovering the main stressors—academic pressure, financial hardship, suicidal thoughts, and lifestyle factors—we aim to inform strategies that reduce depression rates.
+
+Student mental health is a critical global issue and the depression undermines student well-being and academic success, so by discovering the main stress factors, we aim to inform strategies that reduce depression rates.
 
 **Objectives:**  
-- 🔍 **Identify** leading single and compound predictors of student depression.  
-- 💡 **Recommend** targeted, evidence-based interventions for educators & support services.
+- 🔍 **Identify leading single and compound predictors of student depression.**  
+- 💡 **Recommend solutions & Strategies to reduce the depression rate among the student.**
 
 ---
 
 ## Data Source & Context 🗂️
 ![Raw Data](assets/raw-data.png)
 
-- **Dataset:** [Student Depression Dataset on Kaggle](https://www.kaggle.com/datasets/adilshamim8/student-depression-dataset) (27,901 rows × 18 columns).  
-- **[STD_DEP_fnl.xlsx]( https://github.com/EngMoheb/Std_Dep/blob/main/STD_DEP_fnl.xlsx) Workbook Structure:**  
+Check out my resources below 👇 :
+
+📁 **[Project_Videos](https://bit.ly/4jN6e2r)**
+ **[Dataset](https://www.kaggle.com/datasets/adilshamim8/student-depression-dataset)**   
+ 
+ **[STD_DEP_fnl.xlsx]( https://github.com/EngMoheb/Std_Dep/blob/main/STD_DEP_fnl.xlsx)**
+ 
+ *Workbook Structure :* 
   - **Raw Data**  
   - **Cleaned Data**  
   - **Part 1: Demographics Analysis**  
@@ -164,7 +171,13 @@ Depression undermines student well-being and academic success. By uncovering the
 
 **Lead Analyst**: Eng_Ahmed_Moheb 
 
-[LinkedIn](https://www.linkedin.com/in/ahmed-moheb-09b37135a/)  
+Check out my resources below 👇 : 
+
+[Project_Videos](https://bit.ly/4jN6e2r)
+
+📁  Project_Videos : https://bit.ly/4jN6e2r
+
+🔗[LinkedIn](https://www.linkedin.com/in/ahmed-moheb-09b37135a/)  
 
 ---
 

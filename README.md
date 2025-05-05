@@ -49,9 +49,10 @@ Student mental health is a critical global issue and the depression undermines s
 Check out my resources below 👇 :
 
 📁 **[Project_Videos](https://bit.ly/4jN6e2r)**
- **[Dataset](https://www.kaggle.com/datasets/adilshamim8/student-depression-dataset)**   
+
+-    **[Dataset](https://www.kaggle.com/datasets/adilshamim8/student-depression-dataset)**   
  
- **[STD_DEP_fnl.xlsx]( https://github.com/EngMoheb/Std_Dep/blob/main/STD_DEP_fnl.xlsx)**
+-  **[STD_DEP_fnl.xlsx]( https://github.com/EngMoheb/Std_Dep/blob/main/STD_DEP_fnl.xlsx)**
  
  *Workbook Structure :* 
   - **Raw Data**  
@@ -59,8 +60,6 @@ Check out my resources below 👇 :
   - **Part 1: Demographics Analysis**  
   - **Part 2: Single-Feature Analysis**  
   - **Part 3: Hotspots Analysis**  
-- **Security:** Workbook is marked as final and protected to prevent unintentional structure edits.
-
 ---
 
 ## Data Cleaning & Transformation 🔄

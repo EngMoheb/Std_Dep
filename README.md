@@ -43,7 +43,7 @@ Student mental health is a critical global issue. Depression undermines well-bei
 ---
 
 ## Data Source & Context 🗂️
-![Raw Data](assets/raw_data.png)
+![Raw Data](assets/data.png)
 
 **Resources:**  
 📁 **[Project Videos](https://bit.ly/4jN6e2r)**  

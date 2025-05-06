@@ -12,8 +12,8 @@
 3. [Data Source & Context 🗂️](#data-source--context-️)  
 4. [Data Cleaning & Transformation 🔄](#data-cleaning--transformation-)  
 5. [Exploratory Data Analysis 🔍](#exploratory-data-analysis-)  
-   - [Part 1: Demographic Analysis](#part-1-demographic-analysis)  
-   - [Part 2: Single‑Feature Analysis](#part-2-single-feature-analysis)
+   - [Part 1: Demographic Analysis](#part-1-demographic-analysis)
+   - [Part 2: Single Feature Analysis](#part-2-single-feature-analysis)
    - [Part 3: Hotspots Analysis](#part-3-hotspots-analysis)  
 6. [Insights from Analysis 💡](#insights-from-analysis-)  
 7. [Recommendations & Implementation 🎯](#recommendations--implementation-)
@@ -85,7 +85,7 @@ Student mental health is a critical global issue. Depression undermines well-bei
 - **Student Dominance:** Non-students report minimal depression, validating focus on student cohorts.  
 - **Age Pattern:** Younger students are disproportionately affected, suggesting transitional stress in early academic years. <!-- Edited: refined bullet wording and parallel structure -->
 
-### Part 2: Single‑Feature Analysis   
+### Part 2: Single Feature Analysis   
 ![Single Feature](assets/Part_2.png)  
 - **High Academic Pressure:** 81.6% depressed  
 - **Suicidal Thoughts = TRUE:** 79.1% depressed  

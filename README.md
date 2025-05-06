@@ -19,8 +19,8 @@
 6. [Insights from Analysis 💡](#insights-from-analysis-)  
 7. [Recommendations & Implementation 🎯](#recommendations--implementation-)
 8. [Conclusion 📝](#conclusion-️)
-9. [What I Learned 💡](#what-i-learned-💡)  
-10. [Tools I Used 🛠️](#tools-i-used-️)
+9. [What I Learned 💡](#what-I-learned-💡)  
+10. [Tools I Used 🛠️](#tools-I-used-️)
 11. [Next Steps ⏭️](#next-steps-️)
 12. [Contact 📬](#contact-)
 

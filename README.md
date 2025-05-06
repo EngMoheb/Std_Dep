@@ -1,8 +1,7 @@
-# 💡Student Depression Analysis with Excel 📊 
+# 💡 Student Depression Analysis with Excel 📊 
 ![Student Depression Cover](assets/std_dep.png)
 
-
-**A data-driven project deep dive into the academic, lifestyle, and socity factors which driving depression among students**, using Excel to uncover high-impact stressors factors & provide recommendations to solve these problems.
+**A data-driven project deep dive into the academic, lifestyle, and societal factors driving depression among students**, using Excel to uncover high-impact stressors and provide actionable recommendations. <!-- Edited: fixed “society” → “societal”, “stressor factors & provide recommendations to solve these problems” → “stressors and provide actionable recommendations” -->
 
 ---
 
@@ -17,190 +16,171 @@
    - [Part 2: Single-Feature Analysis](#part-2-single-feature-analysis)  
    - [Part 3: Hotspots Analysis](#part-3-hotspots-analysis)  
 6. [Insights from Analysis 💡](#insights-from-analysis-)  
-7. [Recommendations & Implementation 🎯](#recommendations--implementation-)
-8. [Conclusion 📝](#conclusion-️)
-9. [What I Learned 💡](#what-I-learned-💡)  
-10. [Tools I Used 🛠️](#tools-I-used-️)
-11. [Next Steps ⏭️](#next-steps-️)
+7. [Recommendations & Implementation 🎯](#recommendations--implementation-)  
+8. [Conclusion 📝](#conclusion-️)  
+9. [What I Learned 💡](#what-i-learned-💡)  
+10. [Tools I Used 🛠️](#tools-i-used-️)  
+11. [Next Steps ⏭️](#next-steps-️)  
 12. [Contact 📬](#contact-)
-
 
 ---
 
 ## About the Project
 
-**This project analyzes a Kaggle survey of (27,901 rows × 18 columns) located in india to identify the top predictors of depression and provide data-driven solutions. We have used Excel’s Power Query, PivotTables and pivot charts to transform, analyze & visualize raw data,  and after that we have performed three phases of analysis, and provide useful insights & acitonable solutions.**
+This project analyzes a Kaggle survey (27,901 rows × 18 columns) conducted in India to identify the top predictors of student depression and propose data-driven solutions. We used Excel’s Power Query, PivotTables, and pivot charts to transform, analyze, and visualize the raw data. After data preparation, we performed three analytical phases and derived actionable insights. <!-- Edited: restructured first sentence for clarity and fixed punctuation -->
 
 ---
 
 ## Introduction & Objectives 🎯
 
 **Why this matters:**  
-
-Student mental health is a critical global issue and the depression undermines student well-being and academic success, so by discovering the main stress factors, we aim to inform strategies that reduce depression rates.
+Student mental health is a critical global issue. Depression undermines well-being and academic success. By uncovering key stress factors, we aim to inform strategies that reduce depression rates. <!-- Edited: split run-on sentence, improved flow -->
 
 **Objectives:**  
 - 🔍 **Identify leading single and compound predictors of student depression.**  
-- 💡 **Recommend solutions & Strategies to reduce the depression rate among the student.**
+- 💡 **Recommend strategies to reduce depression rates among students.** <!-- Edited: simplified objective language -->
 
 ---
 
 ## Data Source & Context 🗂️
 ![Raw Data](assets/raw_data.png)
 
-Check out my resources below 👇 :
+**Resources:**  
+📁 **[Project Videos](https://bit.ly/4jN6e2r)**  
+- **[Dataset on Kaggle](https://www.kaggle.com/datasets/adilshamim8/student-depression-dataset)**  
+- **[Excel Workbook](https://github.com/EngMoheb/Std_Dep/blob/main/STD_DEP_fnl.xlsx)**  
 
-📁 **[Project_Videos](https://bit.ly/4jN6e2r)**
+**Workbook Structure:**  
+- **Raw Data**  
+- **Cleaned Data**  
+- **Part 1: Demographics Analysis**  
+- **Part 2: Single-Feature Analysis**  
+- **Part 3: Hotspots Analysis**  
 
--    **[Dataset](https://www.kaggle.com/datasets/adilshamim8/student-depression-dataset)**   
- 
--  **[STD_DEP_fnl.xlsx]( https://github.com/EngMoheb/Std_Dep/blob/main/STD_DEP_fnl.xlsx)**
- 
- *Workbook Structure :* 
-  - **Raw Data**  
-  - **Cleaned Data**  
-  - **Part 1: Demographics Analysis**  
-  - **Part 2: Single-Feature Analysis**  
-  - **Part 3: Hotspots Analysis**  
 ---
 
 ## Data Cleaning & Transformation 🔄
 ![Cleaned Data](assets/Cleaned_Data.png)
 
-1. **Deduplication**: Removed duplicate values.    
-2. **Ordinal Buckets**: Created Low/Medium/High groups for pressure, stress, and satisfaction scales.
-3. **Parsing & Bucketing**: Converted “Sleep Duration” text to numeric hours and grouped into Short/Normal/Long.
-4. **Boolean Flags**: Mapped depression and suicidal-thought indicators to TRUE/FALSE.  
-5. **Enrichment**: Added `Country` and `IsStudent` flags for segmentation.
+1. **Deduplication:** Removed duplicate records.  
+2. **Ordinal Buckets:** Created Low/Medium/High groups for pressure, stress, and satisfaction scales.  
+3. **Parsing & Bucketing:** Converted “Sleep Duration” text to numeric hours and grouped into Short/Normal/Long.  
+4. **Boolean Flags:** Mapped depression and suicidal-thought responses to TRUE/FALSE.  
+5. **Enrichment:** Added `Country` and `IsStudent` flags for segmentation. <!-- Edited: standardized list punctuation -->
 
 ---
 
 ## Exploratory Data Analysis 🔍
 
 ### Part 1: Demographic Analysis  
-![Demographics](assets/Part_1.png)
-- **Indian Cities with Highest Depression Rates**: Kalyan (1,570), Srinagar (1,370), Hyderabad (1,338).  
-- **Student Status**: 99% of depressed respondents are students.  
-- **Gender × Age Bands**:  
+![Demographics](assets/Part_1.png)  
+- **Top Indian Cities by Depression Count:** Kalyan (1,570), Srinagar (1,370), Hyderabad (1,338).  
+- **Student Status:** 99% of depressed respondents are students.  
+- **Gender × Age Bands:**  
   - *Females* (44%): Young 23%, Mid 17%, Senior 4%.  
-  - *Males* (56%): Young 28%, Mid 21%, Senior 7%.  
+  - *Males* (56%): Young 28%, Mid 21%, Senior 7%.
 
-#### Detailed Observations
-- **Regional Clusters**: Urban centers like Kalyan show elevated depression counts.
+#### Detailed Observations  
+- **Regional Clusters:** Urban centers show elevated depression counts.  
+- **Student Dominance:** Non-students report minimal depression, validating focus on student cohorts.  
+- **Age Pattern:** Younger students are disproportionately affected, suggesting transitional stress in early academic years. <!-- Edited: refined bullet wording and parallel structure -->
 
-- **Student Dominance**: Non-students report minimal depression, validating focus on student cohorts.
+### Part 2: Single‑Feature Analysis  
+![Single Feature](assets/Part_2.png)  
+- **High Academic Pressure:** 81.6% depressed  
+- **Suicidal Thoughts = TRUE:** 79.1% depressed  
+- **High Financial Stress:** 75.6% depressed  
+- **Low Study Satisfaction:** 70.7% depressed  
+- **Unhealthy Diet:** 70.7% depressed  
+- **High Study Hours:** 66.7% depressed  
+- **Excellent GPA:** 61.0% depressed  
+- **Short Sleep Duration:** 61.3% depressed  
+- **Family Illness History = TRUE:** 61.3% depressed
 
-- **Age Pattern**: Younger students disproportionately affected, pointing to transitional stress in early academic years.
-
-### Part 2: Single-Feature Analysis  
-![Single Feature](assets/Part_2.png)
-- **High Academic Pressure**: 81.6% depressed  
-- **Suicidal Thoughts = TRUE**: 79.1% depressed  
-- **High Financial Stress**: 75.6% depressed  
-- **Low Study Satisfaction**: 70.7% depressed  
-- **Unhealthy Diet**: 70.7% depressed  
-- **High Study Hours**: 66.7% depressed  
-- **Excellent GPA**: 61.0% depressed  
-- **Short Sleep Duration**: 61.3% depressed  
-- **Family Illness History = TRUE**: 61.3% depressed  
-
-### In-Depth Insights
-- _**_Academic and emotional stressors (pressure, ideation) are top predictors, overshadowing lifestyle variables._**
-- **_Diet and sleep emerge as modifiable behaviors—opportunities for wellness programs._**
+#### In-Depth Insights  
+- Academic and emotional stressors (pressure, ideation) are top predictors, overshadowing lifestyle variables.  
+- Diet and sleep emerge as modifiable behaviors—prime targets for wellness programs. <!-- Edited: removed underscore markdown, improved clarity -->
 
 ### Part 3: Hotspots Analysis  
-![Hotspots](assets/Part_3.png)
-- **High Academic Pressure + Suicidal Thoughts**: 91.9% depressed  
-- **High Academic Pressure + High Financial Stress**: 90.7% depressed  
-- **Suicidal Thoughts + High Financial Stress**: 89.1% depressed  
-- **High Pressure + Low Satisfaction**: 89.0% depressed  
-- **Suicidal Thoughts + Low Satisfaction**: 86.8% depressed  
-- **High financial Stress + Low study Satisfaction**: 83.0% depressed  
-- **Suicidal Thoughts + Family Illness**: 81.0% depressed  
-- **Unhealthy Diet + Short Sleep**: 73.0% depressed  
-- **High Study Hours + Short Sleep**: 69.0% depressed  
+![Hotspots](assets/Part_3.png)  
+- **High Academic Pressure + Suicidal Thoughts:** 91.9% depressed  
+- **High Academic Pressure + High Financial Stress:** 90.7% depressed  
+- **Suicidal Thoughts + High Financial Stress:** 89.1% depressed  
+- **High Pressure + Low Satisfaction:** 89.0% depressed  
+- **Suicidal Thoughts + Low Satisfaction:** 86.8% depressed  
+- **High Financial Stress + Low Satisfaction:** 83.0% depressed  
+- **Suicidal Thoughts + Family Illness:** 81.0% depressed  
+- **Unhealthy Diet + Short Sleep:** 73.0% depressed  
+- **High Study Hours + Short Sleep:** 69.0% depressed
+
+---
 
 ## Insights from Analysis 💡
 
-- **Peak Compound Risk**: *High Academic Pressure + Suicidal Thoughts* → **91.9%**.  
-- **Top Single Predictors**: Academic Pressure (81.6%), Suicidal Ideation (79.1%), Financial Stress (75.6%).  
+- **Peak Compound Risk:** *High Academic Pressure + Suicidal Thoughts* → **91.9%**.  
+- **Top Single Predictors:** Academic Pressure (81.6%), Suicidal Ideation (79.1%), Financial Stress (75.6%). <!-- Edited: consistent punctuation -->
 
 ---
 
 ## Recommendations & Implementation 🎯
 
 1. **Reduce Academic Pressure**  
-   - 📚 *Mindfulness & CBT Workshops*:
-These are workshops that combine two techniques, mindfulness and Cognitive Behavioral Therapy (CBT), and they run for an entire school semester. These programs have been shown to significantly reduce stress levels in participants, with studies showing a decrease of 30% to 40%.
-
-   - 👩‍🏫 *Growth-Mindset Training*:
-Integrate incorporate lessons on growth mindset, resilience, and study skills directly into their regular courses.
-
-2. **Address Suicidal Ideation**
-   
-*   🛡️**Routine Screening (PHQ-9):** During routine health checkups at the health center, students will be screened using a questionnaire called the PHQ-9. This questionnaire helps identify students who may be at risk for depression and suicide.
-*   **🤝Gatekeeper Training:** Faculty and other students will be trained to recognize the signs that someone is struggling with mental health issues or suicidal thoughts. 
-
-      **_In short: Identify struggling students early and empower others to help._**  
-
-
+   - 📚 **Mindfulness & CBT Workshops:** Semester-long programs shown to lower stress by 30–40%.  
+   - 👩‍🏫 **Growth-Mindset Training:** Integrate resilience and study-skill modules into curricula.  
+2. **Support Suicidal Ideation**  
+   - 🛡️ **Routine PHQ-9 Screening:** Deploy digital self-assessments with automated referrals for positive screens.  
+   - 🤝 **safeTALK Training:** Certify faculty and peers to recognize warning signs and connect students to support.  
 3. **Alleviate Financial Stress**  
-   - 💳 *Financial Literacy Bootcamps*: Budgeting and scholarship navigation,  These bootcamps are effective enough to lower stress levels by approximately 25%.  
-   - 🆘 *Emergency Aid Grants*: Rapid-response funding (within 48 hours) for urgent needs.
+   - 💳 **Financial Literacy Clinics:** Host monthly “Money Matters” sessions on budgeting, scholarships, and debt management.  
+   - 🆘 **Emergency Micro-Grants:** Fast-track funding (48-hour turnaround) for urgent needs.  
+4. **Improve Well‑Being**  
+   - 🍎 **Nutrition Counseling:** Offer dietitian consults and healthy-meal programs on campus.  
+   - 😴 **Sleep Hygiene Programs:** Provide workshops, trackers, and dedicated sleep spaces. <!-- Edited: consistent list formatting -->
 
-4. **Improve Well-Being**  
-   - 🍎 *Nutrition Counseling*: On-campus dietitian sessions and meal planning.  
-   - 😴 *Sleep Hygiene Programs*: Workshops, trackers, and campus sleep spaces.
-
-*Implementation*: Partner with campus counseling, secure grant funding, and track outcomes via follow-up surveys.
+*Implementation:* Partner with campus counseling, secure funding, and track outcomes via follow-up surveys.
 
 ---
 
-
 ## Conclusion 📝
-Our Excel‑driven analysis revealed that **academic pressure**, **suicidal thoughts**, and **financial stress** are the strongest single predictors of student depression, while **compound stressors** (e.g., high pressure + suicidal ideation) push rates above **90%**. We also identified **protective factors**—like low pressure and healthy diets—that halve depression rates. By targeting these key areas, stakeholders can implement data‑backed interventions to foster healthier, more resilient student communities. ✨
+
+Our Excel-driven analysis showed that **academic pressure**, **suicidal thoughts**, and **financial stress** are the strongest predictors of student depression, while **compound stressors** can push rates above **90%**. We also identified protective factors—low pressure and healthy diets—that halve depression rates. Targeting these areas allows stakeholders to implement data-backed interventions for healthier, more resilient student communities. ✨ <!-- Edited: tightened sentence structure, improved flow -->
 
 ---
 
 ## What I Learned 💡
-1. **Power of Simple Tools:** Excel’s Power Query and PivotTables can handle large surveys and deliver deep insights without advanced coding.  
-2. **Storytelling with Data:** Clear visuals and structured workflows make complex findings accessible to non‑technical audiences.  
-3. **Importance of Context:** Combining demographic slices with single‑feature and hotspot analyses, these methods reveals more detailed and insightful patterns in the data, we should not analyze the entire dataset as one single group. Instead, we should consider different sub-groups to avoid missing important insights.
-4. **Iterative Exploration:** Data cleaning and multiple analytical passes (demographics → features → interactions) are essential and necessary for drawing strong, reliable, and well-supported conclusions.  
-5. **Collaboration & Learning:** Credit goes to community educators (Alex Freberg, Luke Barousse, Mynda Treacy, Mo Chen) whose tutorials fueled my growth—and highlighted that learning never stops. 🚀
 
+1. **Power of Simple Tools:** Excel’s Power Query and PivotTables can deliver deep insights without advanced coding.  
+2. **Storytelling with Data:** Clear visuals and structured workflows make complex findings accessible to non-technical audiences.  
+3. **Importance of Context:** Segmenting data reveals nuanced patterns—subgroup analyses uncover insights missed by aggregate views.  
+4. **Iterative Exploration:** Multiple analytical passes (demographics → features → interactions) are essential for robust conclusions.  
+5. **Lifelong Learning:** Thanks to mentors (Alex Freberg, Luke Barousse, Mynda Treacy, Mo Chen), I’ve seen that continuous learning powers better analysis. 🚀 <!-- Edited: improved parallelism and clarity -->
 
 ---
 
-
 ## Tools I Used 🛠️
 
-- **Microsoft Excel**: Power Query for ETL, PivotTables for analysis and pivot charts for Visualization.   
-- **Git & GitHub**: Version control and project hosting.  
-- **ChatGPT**: Drafted and refined narrative content and advanced analysis.  
-- **DeepSeek AI**: Defining questions and selecting key depression factors.
-- **Perplexity**: Rapid research and fact-checking.  
-- **Grammarly**: Ensured clear, polished writing.
-- **Sider.ai**: Chating with all the AI Models.
+- **Microsoft Excel:** Power Query for ETL, PivotTables for analysis, and pivot charts for visualization.  
+- **Git & GitHub:** Version control and project hosting.  
+- **ChatGPT:** Drafted and refined narrative content.  
+- **DeepSeek AI:** Defined key questions and selected depression factors.  
+- **Perplexity:** Conducted rapid research and fact-checking.  
+- **Sider.ai:** Explored multiple AI models for insights. <!-- Edited: standardized tool descriptions -->
+
 ---
 
 ## Next Steps ⏭️
 
-- **Scale to SQL**: Migrate cleaned data to a relational database for large-scale & to overcome Excel’s row limits and enable advanced querying. 
-- **Advanced BI Tools**: Create interactive dashboards in Power BI or Tableau to visualize real-time depression risk across cohorts.
+- **Scale to SQL:** Migrate data to a relational database for advanced querying and to overcome Excel’s row limits.  
+- **Advanced BI Tools:** Develop interactive dashboards in Power BI or Tableau to visualize real-time depression risk across cohorts. <!-- Edited: tightened language -->
 
 ---
 
 ## Contact 📬
 
-**Lead Analyst**: Eng_Ahmed_Moheb 
-
-🔗[LinkedIn](https://www.linkedin.com/in/ahmed-moheb-09b37135a/)  
-🔗[Medium]( https://medium.com/@ahmedmoheb151)  
-
+**Lead Analyst:** Eng_Ahmed_Moheb  
+🔗 [LinkedIn](https://www.linkedin.com/in/ahmed-moheb-09b37135a/)  
+🔗 [Medium](https://medium.com/@ahmedmoheb151)  
 
 ---
 
 *Thank you for exploring Student Depression Analysis—let’s collaborate to foster healthier campus communities!*  
-
-

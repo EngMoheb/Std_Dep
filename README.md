@@ -18,9 +18,11 @@
    - [Part 3: Hotspots Analysis](#part-3-hotspots-analysis)  
 6. [Insights from Analysis 💡](#insights-from-analysis-)  
 7. [Recommendations & Implementation 🎯](#recommendations--implementation-)
-8. [Tools I Used 🛠️](#tools-i-used-️)
-9. [Next Steps ⏭️](#next-steps-️)
-10. [Contact 📬](#contact-)
+8. [Conclusion 📝](#conclusion-️)
+9. [What I Learned 💡](#what-i-learned-💡)  
+10. [Tools I Used 🛠️](#tools-i-used-️)
+11. [Next Steps ⏭️](#next-steps-️)
+12. [Contact 📬](#contact-)
 
 
 ---

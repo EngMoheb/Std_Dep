@@ -1,7 +1,7 @@
 # 💡 Student Depression Analysis with Excel 📊 
 ![Student Depression Cover](assets/std_dep.png)
 
-**A data-driven project deep dive into the academic, lifestyle, and societal factors driving depression among students**, using Excel to uncover high-impact stressors and provide actionable recommendations. <!-- Edited: fixed “society” → “societal”, “stressor factors & provide recommendations to solve these problems” → “stressors and provide actionable recommendations” -->
+**A data-driven project deep dive into the academic, lifestyle, and societal factors driving depression among students**, using Excel to uncover high-impact stressors and provide actionable recommendations.
 
 ---
 
@@ -13,11 +13,11 @@
 4. [Data Cleaning & Transformation 🔄](#data-cleaning--transformation-)  
 5. [Exploratory Data Analysis 🔍](#exploratory-data-analysis-)  
    - [Part 1: Demographic Analysis](#part-1-demographic-analysis)
-   - [Part 2: Single Feature Analysis](#part-2-single-feature-analysis)
+   - [Part 2: Single Feature Analysis](#part-2-single-feature-analysis)
    - [Part 3: Hotspots Analysis](#part-3-hotspots-analysis)  
 6. [Insights from Analysis 💡](#insights-from-analysis-)  
 7. [Recommendations & Implementation 🎯](#recommendations--implementation-)
-8.  [Conclusion 📝](#conclusion-️)
+8. [Conclusion 📝](#conclusion)
 9. [What I Learned 💡](#what-i-learned-)
 10. [Tools I Used 🛠️](#tools-i-used-️)  
 11. [Next Steps ⏭️](#next-steps-️)  
@@ -27,18 +27,18 @@
 
 ## About the Project
 
-This project analyzes a Kaggle survey (27,901 rows × 18 columns) conducted in India to identify the top predictors of student depression and propose data-driven solutions. We used Excel’s Power Query, PivotTables, and pivot charts to transform, analyze, and visualize the raw data. After data preparation, we performed three analytical phases and derived actionable insights. <!-- Edited: restructured first sentence for clarity and fixed punctuation -->
+This project analyzes a Kaggle survey (27,901 rows × 18 columns) conducted in India to identify the top predictors of student depression and propose data-driven solutions. We used Excel’s Power Query, PivotTables, and pivot charts to transform, analyze, and visualize the raw data. After data preparation, we performed three analytical phases and derived actionable insights.
 
 ---
 
 ## Introduction & Objectives 🎯
 
 **Why this matters:**  
-Student mental health is a critical global issue. Depression undermines well-being and academic success. By uncovering key stress factors, we aim to inform strategies that reduce depression rates. <!-- Edited: split run-on sentence, improved flow -->
+Student mental health is a critical global issue. Depression undermines well-being and academic success. By uncovering key stress factors, we aim to inform strategies that reduce depression rates.
 
 **Objectives:**  
 - 🔍 **Identify leading single and compound predictors of student depression.**  
-- 💡 **Recommend strategies to reduce depression rates among students.** <!-- Edited: simplified objective language -->
+- 💡 **Recommend strategies to reduce depression rates among students.**
 
 ---
 
@@ -66,7 +66,7 @@ Student mental health is a critical global issue. Depression undermines well-bei
 2. **Ordinal Buckets:** Created Low/Medium/High groups for pressure, stress, and satisfaction scales.  
 3. **Parsing & Bucketing:** Converted “Sleep Duration” text to numeric hours and grouped into Short/Normal/Long.  
 4. **Boolean Flags:** Mapped depression and suicidal-thought responses to TRUE/FALSE.  
-5. **Enrichment:** Added `Country` and `IsStudent` flags for segmentation. <!-- Edited: standardized list punctuation -->
+5. **Enrichment:** Added `Country` and `IsStudent` flags for segmentation.
 
 ---
 
@@ -83,9 +83,9 @@ Student mental health is a critical global issue. Depression undermines well-bei
 #### Detailed Observations  
 - **Regional Clusters:** Urban centers show elevated depression counts.  
 - **Student Dominance:** Non-students report minimal depression, validating focus on student cohorts.  
-- **Age Pattern:** Younger students are disproportionately affected, suggesting transitional stress in early academic years. <!-- Edited: refined bullet wording and parallel structure -->
+- **Age Pattern:** Younger students are disproportionately affected, suggesting transitional stress in early academic years.
 
-### Part 2: Single Feature Analysis   
+### Part 2: Single Feature Analysis   
 ![Single Feature](assets/Part_2.png)  
 - **High Academic Pressure:** 81.6% depressed  
 - **Suicidal Thoughts = TRUE:** 79.1% depressed  
@@ -99,7 +99,7 @@ Student mental health is a critical global issue. Depression undermines well-bei
 
 #### In-Depth Insights  
 - Academic and emotional stressors (pressure, ideation) are top predictors, overshadowing lifestyle variables.  
-- Diet and sleep emerge as modifiable behaviors—prime targets for wellness programs. <!-- Edited: removed underscore markdown, improved clarity -->
+- Diet and sleep emerge as modifiable behaviors—prime targets for wellness programs.
 
 ### Part 3: Hotspots Analysis  
 ![Hotspots](assets/Part_3.png)  
@@ -118,7 +118,7 @@ Student mental health is a critical global issue. Depression undermines well-bei
 ## Insights from Analysis 💡
 
 - **Peak Compound Risk:** *High Academic Pressure + Suicidal Thoughts* → **91.9%**.  
-- **Top Single Predictors:** Academic Pressure (81.6%), Suicidal Ideation (79.1%), Financial Stress (75.6%). <!-- Edited: consistent punctuation -->
+- **Top Single Predictors:** Academic Pressure (81.6%), Suicidal Ideation (79.1%), Financial Stress (75.6%).
 
 ---
 
@@ -126,7 +126,7 @@ Student mental health is a critical global issue. Depression undermines well-bei
 
 1. **Reduce Academic Pressure**  
    - 📚 **Mindfulness & CBT Workshops:** Semester-long programs shown to lower stress by 30–40%.  
-   - 👩‍🏫 **Growth-Mindset Training:** Integrate resilience and study-skill modules into curricula.  
+   - 👩🏫 **Growth-Mindset Training:** Integrate resilience and study-skill modules into curricula.  
 2. **Support Suicidal Ideation**  
    - 🛡️ **Routine PHQ-9 Screening:** Deploy digital self-assessments with automated referrals for positive screens.  
    - 🤝 **safeTALK Training:** Certify faculty and peers to recognize warning signs and connect students to support.  
@@ -135,7 +135,7 @@ Student mental health is a critical global issue. Depression undermines well-bei
    - 🆘 **Emergency Micro-Grants:** Fast-track funding (48-hour turnaround) for urgent needs.  
 4. **Improve Well‑Being**  
    - 🍎 **Nutrition Counseling:** Offer dietitian consults and healthy-meal programs on campus.  
-   - 😴 **Sleep Hygiene Programs:** Provide workshops, trackers, and dedicated sleep spaces. <!-- Edited: consistent list formatting -->
+   - 😴 **Sleep Hygiene Programs:** Provide workshops, trackers, and dedicated sleep spaces.
 
 *Implementation:* Partner with campus counseling, secure funding, and track outcomes via follow-up surveys.
 
@@ -143,7 +143,7 @@ Student mental health is a critical global issue. Depression undermines well-bei
 
 ## Conclusion 📝
 
-Our Excel-driven analysis showed that **academic pressure**, **suicidal thoughts**, and **financial stress** are the strongest predictors of student depression, while **compound stressors** can push rates above **90%**. We also identified protective factors—low pressure and healthy diets—that halve depression rates. Targeting these areas allows stakeholders to implement data-backed interventions for healthier, more resilient student communities. ✨ <!-- Edited: tightened sentence structure, improved flow -->
+Our Excel-driven analysis showed that **academic pressure**, **suicidal thoughts**, and **financial stress** are the strongest predictors of student depression, while **compound stressors** can push rates above **90%**. We also identified protective factors—low pressure and healthy diets—that halve depression rates. Targeting these areas allows stakeholders to implement data-backed interventions for healthier, more resilient student communities. ✨
 
 ---
 
@@ -153,7 +153,7 @@ Our Excel-driven analysis showed that **academic pressure**, **suicidal thoughts
 2. **Storytelling with Data:** Clear visuals and structured workflows make complex findings accessible to non-technical audiences.  
 3. **Importance of Context:** Segmenting data reveals nuanced patterns—subgroup analyses uncover insights missed by aggregate views.  
 4. **Iterative Exploration:** Multiple analytical passes (demographics → features → interactions) are essential for robust conclusions.  
-5. **Lifelong Learning:** Thanks to mentors (Alex Freberg, Luke Barousse, Mynda Treacy, Mo Chen), I’ve seen that continuous learning powers better analysis. 🚀 <!-- Edited: improved parallelism and clarity -->
+5. **Lifelong Learning:** Thanks to mentors (Alex Freberg, Luke Barousse, Mynda Treacy, Mo Chen), I’ve seen that continuous learning powers better analysis. 🚀
 
 ---
 
@@ -164,14 +164,14 @@ Our Excel-driven analysis showed that **academic pressure**, **suicidal thoughts
 - **ChatGPT:** Drafted and refined narrative content.  
 - **DeepSeek AI:** Defined key questions and selected depression factors.  
 - **Perplexity:** Conducted rapid research and fact-checking.  
-- **Sider.ai:** Explored multiple AI models for insights. <!-- Edited: standardized tool descriptions -->
+- **Sider.ai:** Explored multiple AI models for insights.
 
 ---
 
 ## Next Steps ⏭️
 
 - **Scale to SQL:** Migrate data to a relational database for advanced querying and to overcome Excel’s row limits.  
-- **Advanced BI Tools:** Develop interactive dashboards in Power BI or Tableau to visualize real-time depression risk across cohorts. <!-- Edited: tightened language -->
+- **Advanced BI Tools:** Develop interactive dashboards in Power BI or Tableau to visualize real-time depression risk across cohorts.
 
 ---
 
@@ -183,4 +183,4 @@ Our Excel-driven analysis showed that **academic pressure**, **suicidal thoughts
 
 ---
 
-*Thank you for exploring Student Depression Analysis—let’s collaborate to foster healthier campus communities!*  
+*Thank you for exploring Student Depression Analysis—let’s collaborate to foster healthier campus communities!*

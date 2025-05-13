@@ -27,7 +27,7 @@
 
 ## About the Project
 
-This project analyzes a Kaggle survey (27,901 rows × 18 columns) conducted in India to identify the top predictors of student depression and propose data-driven solutions. We used Excel’s Power Query, PivotTables, and pivot charts to transform, analyze, and visualize the raw data. After data preparation, we performed three analytical phases and derived actionable insights.
+This project analyzes a Kaggle survey (27,901 rows × 18 columns) conducted in India to identify the top predictors of student depression and propose data-driven solutions. We used Excel’s Power Query, PivotTables, and pivot charts to transform, analyze, and visualize the raw data.After ETL processing of the raw data, we performed three analytical phases and derived actionable insights.
 
 ---
 
@@ -43,12 +43,13 @@ Student mental health is a critical global issue. Depression undermines well-bei
 ---
 
 ## Data Source & Context 🗂️
-![Raw Data](assets/data.png)
+![Raw Data](assets/raw_data.png)
 
-**Resources:**  
-📁 **[Project Videos](https://bit.ly/4jN6e2r)**  
-- **[Dataset on Kaggle](https://www.kaggle.com/datasets/adilshamim8/student-depression-dataset)**  
-- **[Excel Workbook](https://github.com/EngMoheb/Std_Dep/blob/main/STD_DEP_fnl.xlsx)**  
+**Resources:** 
+
+👉 **[Project Videos](https://bit.ly/4jN6e2r) 🎞️**  
+👉 **[Kaggle Dataset](https://www.kaggle.com/datasets/adilshamim8/student-depression-dataset)📊**  
+👉 **[Excel Workbook](https://github.com/EngMoheb/Std_Dep/blob/main/STD_DEP_fnl.xlsx) **  
 
 **Workbook Structure:**  
 - **Raw Data**  

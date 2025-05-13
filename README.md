@@ -49,7 +49,7 @@ Student mental health is a critical global issue. Depression undermines well-bei
 
 👉 **[Project Videos](https://bit.ly/4jN6e2r) 🎞️**  
 👉 **[Kaggle Dataset](https://www.kaggle.com/datasets/adilshamim8/student-depression-dataset)📊**  
-👉 **[Excel Workbook](https://github.com/EngMoheb/Std_Dep/blob/main/STD_DEP_fnl.xlsx) **  
+👉 **[Excel Workbook](https://github.com/EngMoheb/Std_Dep/blob/main/STD_DEP_fnl.xlsx)**  
 
 **Workbook Structure:**  
 - **Raw Data**  

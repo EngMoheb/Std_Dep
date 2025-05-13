@@ -154,7 +154,7 @@ Our Excel-driven analysis showed that **academic pressure**, **suicidal thoughts
 2. **Storytelling with Data:** Clear visuals and structured workflows make complex findings accessible to non-technical audiences.  
 3. **Importance of Context:** Segmenting data reveals nuanced patterns—subgroup analyses uncover insights missed by aggregate views.  
 4. **Iterative Exploration:** Multiple analytical passes (demographics → features → interactions) are essential for robust conclusions.  
-5. **Lifelong Learning:** Thanks to mentors (Alex Freberg, Luke Barousse, Mynda Treacy, Mo Chen), I’ve seen that continuous learning powers better analysis. 🚀
+5. **Lifelong Learning:** Thanks to mentors [***Alex Freberg***](https://www.linkedin.com/in/alex-freberg/), [***Luke Barousse***](https://www.linkedin.com/in/luke-b/), [***Mynda Treacy***](https://www.linkedin.com/in/myndatreacy/), [***Mo Chen***](https://www.linkedin.com/in/mo-chen1/)  , I’ve seen that continuous learning powers better analysis. 🚀
 
 ---
 

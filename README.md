@@ -180,8 +180,6 @@ Our Excel-driven analysis showed that **academic pressure**, **suicidal thoughts
 
 **Lead Analyst:** Eng_Ahmed_Moheb  
 🔗 [LinkedIn](https://www.linkedin.com/in/ahmed-moheb-09b37135a/)  
-🔗 [Medium](https://medium.com/@ahmedmoheb151)  
-
 ---
 
 *Thank you for exploring Student Depression Analysis—let’s collaborate to foster healthier campus communities!*

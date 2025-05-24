@@ -130,15 +130,15 @@ Student mental health is a critical global issue. Depression undermines well-bei
    - 👩🏫 **Growth-Mindset Training:** Integrate resilience and study-skill modules into curricula.  
 2. **Support Suicidal Ideation**  
    - 🛡️ **Routine PHQ-9 Screening:** Deploy digital self-assessments with automated referrals for positive screens.  
-   - 🤝 **safeTALK Training:** Certify faculty and peers to recognize warning signs and connect students to support.  
+   - 🤝 **safeTALK Training:** Certify faculty and peers to recognise warning signs and connect students to support.  
 3. **Alleviate Financial Stress**  
    - 💳 **Financial Literacy Clinics:** Host monthly “Money Matters” sessions on budgeting, scholarships, and debt management.  
    - 🆘 **Emergency Micro-Grants:** Fast-track funding (48-hour turnaround) for urgent needs.  
 4. **Improve Well‑Being**  
-   - 🍎 **Nutrition Counseling:** Offer dietitian consults and healthy-meal programs on campus.  
+   - 🍎 **Nutrition Counselling:** Offer dietitian consults and healthy meal programs on campus.  
    - 😴 **Sleep Hygiene Programs:** Provide workshops, trackers, and dedicated sleep spaces.
 
-*Implementation:* Partner with campus counseling, secure funding, and track outcomes via follow-up surveys.
+*Implementation:* Partner with campus counselling, secure funding, and track outcomes via follow-up surveys.
 
 ---
 
@@ -154,13 +154,13 @@ Our Excel-driven analysis showed that **academic pressure**, **suicidal thoughts
 2. **Storytelling with Data:** Clear visuals and structured workflows make complex findings accessible to non-technical audiences.  
 3. **Importance of Context:** Segmenting data reveals nuanced patterns—subgroup analyses uncover insights missed by aggregate views.  
 4. **Iterative Exploration:** Multiple analytical passes (demographics → features → interactions) are essential for robust conclusions.  
-5. **Lifelong Learning:** Thanks to mentors [***Alex Freberg***](https://www.linkedin.com/in/alex-freberg/), [***Luke Barousse***](https://www.linkedin.com/in/luke-b/), [***Mynda Treacy***](https://www.linkedin.com/in/myndatreacy/), [***Mo Chen***](https://www.linkedin.com/in/mo-chen1/)  , I’ve seen that continuous learning powers better analysis. 🚀
+5. **Lifelong Learning:** Thanks to mentors [***Alex Freberg***](https://www.linkedin.com/in/alex-freberg/), [***Luke Barousse***](https://www.linkedin.com/in/luke-b/), [***Mynda Treacy***](https://www.linkedin.com/in/myndatreacy/), [***Mo Chen***](https://www.linkedin.com/in/mo-chen1/) , I’ve seen that continuous learning powers better analysis. 🚀
 
 ---
 
 ## Tools I Used 🛠️
 
-- **Microsoft Excel:** Power Query for ETL, PivotTables for analysis, and pivot charts for visualization.  
+- **Microsoft Excel:** Power Query for ETL, PivotTables for analysis, and pivot charts for visualisation.  
 - **Git & GitHub:** Version control and project hosting.  
 - **ChatGPT:** Drafted and refined narrative content.  
 - **DeepSeek AI:** Defined key questions and selected depression factors.  
@@ -172,7 +172,7 @@ Our Excel-driven analysis showed that **academic pressure**, **suicidal thoughts
 ## Next Steps ⏭️
 
 - **Scale to SQL:** Migrate data to a relational database for advanced querying and to overcome Excel’s row limits.  
-- **Advanced BI Tools:** Develop interactive dashboards in Power BI or Tableau to visualize real-time depression risk across cohorts.
+- **Advanced BI Tools:** Develop interactive dashboards in Power BI or Tableau to visualise real-time depression risk across cohorts.
 
 ---
 
